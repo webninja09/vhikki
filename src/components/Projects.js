@@ -56,16 +56,16 @@ export const Projects = () => {
                 <h2>Projects</h2>
                 <p>Anhdyrd budhc icy ddyfdq hdf  dhdd gdbdee hdfgvyfc jvhgb.</p>
                 <Row>
-  {projects.map((project, index) => {
-    return (
-      <Col key={index} xs={6} sm={6} md={6} lg={6} xl={6}>
-        <a href={project.linkUrl} target="_blank" rel="noopener noreferrer">
-          <ProjectCard {...project} />
-        </a>
-      </Col>
-    );
-  })}
-</Row>
+                  {projects.map((project, index) => {
+                    return (
+                      <Col key={index} xs={12} sm={6} md={6} lg={4}>
+                        <a href={project.linkUrl} target="_blank" rel="noopener noreferrer">
+                          <ProjectCard {...project} />
+                        </a>
+                      </Col>
+                    );
+                  })}
+                </Row>
 
               </div>}
             </TrackVisibility>

@@ -621,3 +621,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .footer social-icon{
   margin-top: 100px;
 }
+
+
+.proj-imgbx img {
+  height: 250px;
+}
+
+@media (max-width : 768px) {
+  .proj-imgbx img {
+    height: 230px;
+  }
+  
+}
+@media (max-width : 576px) {
+  .proj-imgbx img {
+    height: 260px;
+  }
+  
+}
